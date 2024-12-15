@@ -1,0 +1,33 @@
+.navbar {
+    height: 80px;
+
+    .wrapper {
+        max-width: 1366px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        span {
+            font-weight: bold;
+            font-size: 20px;
+
+            &:hover {
+                cursor: pointer;
+                color: #ffd700;
+            }
+        }
+
+        .social a{
+            font-size: 30px;
+            margin-left: 15px;
+
+            &:hover svg {
+                color: #ffd700;
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,73 @@
+
+.myskills {
+    max-width: 1366px;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+        .skill-text-container{
+            flex: 1;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            h1{
+                font-size: 82px;
+            }
+
+            p{
+                text-align: center;
+                font-size: 24px;
+            }
+
+            button{
+                height: 50px;
+                width: 200px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #0c0c1d;
+                border: none;
+                border-radius: 15px;
+
+                &:hover{
+                    background-color: #ffd700;
+                    cursor:pointer;
+                }
+            }
+
+            hr{
+                width: 800px;
+                height: 5px;
+                background-color: #fff;
+            }
+        }
+        
+        .skill-box-container {
+            flex: 2;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            
+
+            .skill-box{
+                justify-content: center;
+                text-align: center;
+                flex: 1;
+                
+                svg {
+                    font-size: 30vh;
+                    padding: 50px;
+                    margin: 50px;;
+                }
+
+        &:hover svg{
+                    cursor: pointer;
+                    color: #ffd700;
+                }
+        }
+    }
+}
